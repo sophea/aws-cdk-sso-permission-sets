@@ -1,7 +1,7 @@
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
 import { SsoMgtStack } from '../lib/sso-mgt-stack';
-import { environment } from '../lib/data/environment';
+import { environment } from '../lib/config/environment';
 
 const { account, region } = environment;
 
